@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cirujano Plástico</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Cirujano Plástico</h1>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Inicio</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Servicios</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Galería</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h2 class="hero__title">Transforma tu belleza, transforma tu vida</h2>
+            <p class="hero__description">Nuestro equipo de cirujanos plásticos altamente calificados están aquí para ayudarte a lograr la mejor versión de ti mismo.</p>
+            <a href="#" class="hero__cta">¡Reserva una consulta!</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about__content">
+            <div class="about__card">
+                <h2 class="about__title">Misión</h2>
+                <figure class="about__image"><img src="assets/mision.jpg" alt="Mision" class="about__image--img"></figure>
+                <p class="about__description">Nuestra misión es proporcionar resultados excepcionales y seguros a nuestros pacientes, utilizando técnicas innovadoras y brindando un cuidado personalizado y compasivo.</p>
+            </div>
+            <div class="about__card">
+                <h2 class="about__title">Visión</h2>
+                <figure class="about__image"><img src="assets/vision.jpg" alt="Vision" class="about__image--img"></figure>
+                <p class="about__description">Nos esforzamos por ser líderes en cirugía plástica, comprometidos con la excelencia en el servicio al cliente, la educación continua y la innovación en el campo de la estética.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="services__title">Nuestros Servicios</h2>
+        <div class="services__grid">
+            <div class="service">
+                <h3 class="service__title">Rinoplastia</h3>
+                <figure class="service__image"><img src="assets/Rinoplastia.jpg" alt="Rinoplastia" class="service__image--img"></figure>
+                <p class="service__description">Transforma la forma y función de tu nariz para una apariencia más armoniosa.</p>
+            </div>
+            <div class="service">
+                <h3 class="service__title">Blefaroplastia</h3>
+                <figure class="service__image"><img src="assets/blefaroplastia.jpeg" alt="Blefaroplastia" class="service__image--img"></figure>
+                <p class="service__description">Rejuvenece tu mirada eliminando el exceso de piel y grasa alrededor de los ojos.</p>
+            </div>
+            <div class="service">
+                <h3 class="service__title">Liposucción</h3>
+                <figure class="service__image"><img src="assets/lipo.jpeg" alt="Liposuccion" class="service__image--img"></figure>
+                <p class="service__description">Elimina la grasa no deseada y moldea tu cuerpo para una figura más esbelta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2 class="gallery__title">Galería</h2>
+        <div class="gallery__images">
+            <img src="assets/cirugia1.jpg" alt="Image 1" class="gallery__image">
+            <img src="assets/cirugia2.jpg" alt="Image 2" class="gallery__image">
+            <img src="assets/cirugia1.jpg" alt="Image 3" class="gallery__image">
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact__content">
+            <h2 class="contact__title">Contáctanos</h2>
+            <p class="contact__description">¡Estamos aquí para ayudarte! Ponte en contacto con nosotros para obtener más información o para reservar una consulta.</p>
+            <form class="contact__form" action="#" method="POST">
+                <div class="contact__form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="contact__submit-btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2024 JoelS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
