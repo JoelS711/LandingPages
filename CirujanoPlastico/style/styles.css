@@ -197,6 +197,7 @@ body {
 .gallery {
     padding: 2% 20px;
     text-align: center;
+    overflow: hidden;
 }
 
 .gallery__title {
